@@ -1,0 +1,217 @@
+:root{
+    --discord-dark: #23272A;
+    --background-gray: #F6F6F6;
+    --prova: hsl(0,0%,96%);
+    --discord-blue: #7289DA;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    border-radius: 15px;
+    margin: 0 1rem;
+    padding:0.5rem 1rem;
+    border-style: none;
+}
+
+.container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+header>.container{
+    margin-top: 1rem;
+    min-width: 650px;
+    position: absolute;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--discord-blue);
+}
+
+.footer-bar>button:hover{
+    background-color: var(--background-gray);
+    color: var(--discord-dark);
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+}
+
+.item>a{
+    margin: 0 3%;
+}
+
+main{
+    height: 1000px;
+    background-color: var(--discord-blue);
+}
+
+.video-background{
+    background-color:purple;
+    height: 800px;
+}
+
+.nitro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10vw;
+    width: 40%;
+    height: 100%;
+    min-width: 510px;
+}
+
+.nitro>img{
+    width: 50%;
+}
+
+.nitro>p,
+.nitro>.buttons{
+    margin: 1rem 0;
+}
+
+.nitro>.buttons>button{
+    font-size: large;
+    margin: 0 0.5rem;
+    padding: 1rem;
+    border-radius: 30px;
+    background-color: var(--discord-dark);
+    color: var(--background-gray);
+}
+
+.promotion{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading{
+    width: 70%;
+}
+
+.features{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.card{
+    width: 30%;
+    height: 100%;
+}
+
+.buttons{
+    margin: 1rem 0;
+}
+
+.buttons>.dark{
+    background-color: var(--discord-dark);
+    color: white;
+}
+
+.buttons>.dark:hover{
+    background-color: var(--discord-blue);
+}
+
+footer{
+    background-color: var(--discord-dark);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.blue{
+    color: white;
+    background-color: var(--discord-blue);
+}
+
+.blue:hover{
+    background-color: var(--discord-dark);
+}
+
+footer>.container{
+    margin: 2rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-5{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: calc(100% /6.7);
+}
+
+.col-5>button{
+    background: none;
+    color: white;
+    padding: 1rem 0;
+    margin: 0;
+}
+
+.col-5>ul,
+.col-5>h3{
+    color: var(--discord-blue);
+    list-style: none;
+    padding: 0.5rem 0
+}
+
+li{
+    padding: 0.3rem 0;
+}
+
+.social{
+    color: white;
+    display: flex;
+    text-align: center;
+}
+
+.social>a{
+    padding-right: 1rem;
+    width: 2rem;
+}
+
+.social>a>img{
+    filter: invert(100%);
+}
+
+button>img{
+    max-height: 1rem;
+}
+
+footer>.container{
+    justify-content: space-between;
+}
+
+.footer-bar{
+    margin: 3rem 0;
+    border-top: 1px solid var(--discord-blue);
+    padding-top: 1rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
