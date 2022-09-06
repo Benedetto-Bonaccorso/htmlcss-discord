@@ -32,7 +32,7 @@ button{
 
 header>.container{
     margin-top: 1rem;
-    min-width: 650px;
+    min-width: 669px;
     position: absolute;
     color: white;
     justify-content: space-between;
@@ -49,7 +49,7 @@ a:hover{
 }
 
 .footer-bar>button:hover{
-    background-color: var(--background-gray);
+    background-color: gray;
     color: var(--discord-dark);
 }
 
@@ -63,8 +63,8 @@ a:hover{
 }
 
 main{
-    height: 1000px;
-    background-color: var(--discord-blue);
+
+    background-color: white;
 }
 
 .video-background{
@@ -91,7 +91,7 @@ main{
     margin: 1rem 0;
 }
 
-.nitro>.buttons>button{
+.buttons>button{
     font-size: large;
     margin: 0 0.5rem;
     padding: 1rem;
@@ -100,32 +100,102 @@ main{
     color: var(--background-gray);
 }
 
+.discount{
+    background-color: var(--discord-blue);
+    border-radius: 15px;
+    padding: 0.2rem;
+    font-size: small;
+}
+
 .promotion{
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 5rem;
 }
 
 .heading{
     width: 70%;
 }
 
+.promotion>.heading{
+    margin-top: 5rem;
+}
+
+.heading>h1{
+    font-size: 60px;
+    font-weight: 900;
+    margin: 3rem;
+}
+
 .features{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
+    width: 80%;
+    margin: 5rem 0;
 }
 
 .card{
-    width: 30%;
-    height: 100%;
+    width: 25%;
+    height: 200px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card>h3, .card>p{
+    margin: 0.5rem;
+}
+
+.card-1{
+    background-color: blueviolet;
+}
+
+.card-2{
+    background-color: aqua;
+}
+
+.card-3{
+    background-color: burlywood;
+}
+
+.card-4{
+    background-color: thistle;
+}
+
+.card-5{    
+    background-color: mediumpurple;
+}
+
+.card-6{
+    background-color: goldenrod;
+}
+
+.placeholder{
+    width: 150px;
+    height: 80px;
+    background-color: #7289DA;
 }
 
 .buttons{
     margin: 1rem 0;
+}
+
+button:hover{
+    background-color: var(--discord-blue);
+    color: var(--discord-dark);
+}
+
+.spread>button{
+    width: 300px;
+}
+
+.classic{
+    background-color: #7289DA;
 }
 
 .buttons>.dark{
@@ -171,6 +241,37 @@ footer>.container{
     color: white;
     padding: 1rem 0;
     margin: 0;
+}
+
+.video-background-bottom{
+    display: flex;
+    background-color:purple;
+    height: 800px;
+    justify-content: flex-end
+}
+
+.nitro-classic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10vw;
+    width: 40%;
+    height: 100%;
+    min-width: 510px;
+}
+
+.nitro-classic>img{
+    width: 60%;
+}
+
+.nitro-classic>p{
+    margin: 1rem 0;
+}
+
+.nitro-classic>p,
+.nitro>p{
+    color: white;
+    font-size: large;
 }
 
 .col-5>ul,
